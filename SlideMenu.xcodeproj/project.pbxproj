@@ -14,6 +14,11 @@
 		D4A1CD79270200C500F11555 /* SlideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1CD78270200C500F11555 /* SlideMenuTests.swift */; };
 		D4A1CD83270200C500F11555 /* SlideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1CD82270200C500F11555 /* SlideMenuUITests.swift */; };
 		D4A1CD85270200C500F11555 /* SlideMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1CD84270200C500F11555 /* SlideMenuUITestsLaunchTests.swift */; };
+		D4A1CD942702094300F11555 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1CD932702094200F11555 /* SideMenuView.swift */; };
+		D4A1CD962702095500F11555 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1CD952702095500F11555 /* SideMenuHeaderView.swift */; };
+		D4A1CD982702096C00F11555 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1CD972702096C00F11555 /* SideMenuOptionView.swift */; };
+		D4A1CD9A2702098800F11555 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1CD992702098800F11555 /* SideMenuViewModel.swift */; };
+		D4A1CD9C2702123B00F11555 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A1CD9B2702123B00F11555 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		D4A1CD7E270200C500F11555 /* SlideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A1CD82270200C500F11555 /* SlideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuUITests.swift; sourceTree = "<group>"; };
 		D4A1CD84270200C500F11555 /* SlideMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4A1CD932702094200F11555 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		D4A1CD952702095500F11555 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		D4A1CD972702096C00F11555 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		D4A1CD992702098800F11555 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		D4A1CD9B2702123B00F11555 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,9 @@
 		D4A1CD66270200BC00F11555 /* SlideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				D4A1CD922702092400F11555 /* ViewModels */,
+				D4A1CD91270208CF00F11555 /* Views */,
 				D4A1CD67270200BC00F11555 /* SlideMenuApp.swift */,
-				D4A1CD69270200BC00F11555 /* ContentView.swift */,
 				D4A1CD6B270200C400F11555 /* Assets.xcassets */,
 				D4A1CD6D270200C400F11555 /* Preview Content */,
 			);
@@ -125,6 +136,26 @@
 				D4A1CD84270200C500F11555 /* SlideMenuUITestsLaunchTests.swift */,
 			);
 			path = SlideMenuUITests;
+			sourceTree = "<group>";
+		};
+		D4A1CD91270208CF00F11555 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4A1CD69270200BC00F11555 /* ContentView.swift */,
+				D4A1CD932702094200F11555 /* SideMenuView.swift */,
+				D4A1CD952702095500F11555 /* SideMenuHeaderView.swift */,
+				D4A1CD972702096C00F11555 /* SideMenuOptionView.swift */,
+				D4A1CD9B2702123B00F11555 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4A1CD922702092400F11555 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D4A1CD992702098800F11555 /* SideMenuViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A1CD942702094300F11555 /* SideMenuView.swift in Sources */,
+				D4A1CD9C2702123B00F11555 /* HomeView.swift in Sources */,
+				D4A1CD962702095500F11555 /* SideMenuHeaderView.swift in Sources */,
 				D4A1CD6A270200BC00F11555 /* ContentView.swift in Sources */,
+				D4A1CD982702096C00F11555 /* SideMenuOptionView.swift in Sources */,
+				D4A1CD9A2702098800F11555 /* SideMenuViewModel.swift in Sources */,
 				D4A1CD68270200BC00F11555 /* SlideMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
